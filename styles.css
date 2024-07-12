@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    color: #fff;
+}
+
+.content {
+    padding: 20px;
+    text-align: center; 
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.album {
+    margin: 10px;
+    text-align: center;
+}
+
+.album img {
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.album img:hover {
+    transform: scale(1.1);
+}
+
+.album a {
+    display: block;
+    color: #f1f1f1;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.album a:hover {
+    color: #ff6347;
+}
+
+.registration-form,
+.feedback-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+}
+
+.registration-form input,
+.feedback-form input,
+.feedback-form textarea,
+.registration-form button,
+.feedback-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.registration-form input:focus,
+.feedback-form input:focus,
+.feedback-form textarea:focus,
+.registration-form button:focus,
+.feedback-form button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #575757;
+}
+
+.registration-form button,
+.feedback-form button {
+    background-color: #444;
+    color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.registration-form button:hover,
+.feedback-form button:hover {
+    background-color: #575757;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
